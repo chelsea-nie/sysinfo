@@ -49,7 +49,7 @@ esac
 /opt/MegaRAID/MegaCli/MegaCli64 -AdpAllInfo -aALL|grep "^Product Name"
 
 #删除脚本
-rm -rf anxiangzhang.sh
+rm -rf info.sh
 
 ip a|grep -A1 em1|grep -Ev "^em1|inet6"
 
